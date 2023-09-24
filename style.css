@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: blue;
+    background-image: url("background.jpg");  
+    /* position: absolute; */
+    /* opacity: 0.2; */
+}
+   
+.container{
+    text-align: center;
+    color: rgb(5, 5, 47);
+    font-style: italic;
+     position: relative; 
+}
+h1{
+    background-color: aqua;
+    font-size: 50px;
+    color: black;
+    top: 0px;
+    position:relative;
+    margin: 0px;
+    font-weight:bold ;
+}
+h3{
+    font-size: 30px;
+    font-weight:bold ;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    font-weight:bold ;
+}
+.score .computer{
+    margin-left: 80px;
+    font-weight:bold ;
+}
+.rs{
+    display: flex;
+    justify-content: center;
+    font-weight:bold ;
+}
+
+#image1{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 1;
+    
+}
+#image2{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 1;
+}
+#image3{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 1;
+
+}
+#userimg{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    opacity: 1;
+    background-image: none;
+}
+#compimg{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    opacity: 1;
+    
+}
+.user{
+    display: flex;
+    justify-content: center;
+}
+.computer{
+    display: flex;
+    justify-content: center;
+}
+#image1:hover{
+    border:10px solid rgb(225, 23, 202);
+}
+#image2:hover{
+    border:10px solid rgb(225, 23, 202);
+}
+#image3:hover{
+    border:10px solid rgb(225, 23, 202);
+}
